@@ -10,7 +10,7 @@ function drawShape(){
 	  
 	//이미지 객체를 생성하고 이미지를 그린다.
 	var image = new Image(); //Image객체 생성
-	   image.src="https://probemedia.github.io/studyhtml5/cover_s.png"; //이미지 파일 지정
+	   image.src="https://probemedia.github.io/studyhtml5/images/cover_s.png"; //이미지 파일 지정
 	   image.onload = function(){//이미지가 로딩되면 자동실행
 	   ctx.drawImage(image,0,0);//캔버스의 (0,0)좌표에 이미지를 그린다.
 	} 
