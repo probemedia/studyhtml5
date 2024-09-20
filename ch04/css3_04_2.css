@@ -1,0 +1,53 @@
+@charset "UTF-8";
+div{
+    width: 300px;
+    height: 400px;
+    padding: 10px 20px;
+    margin : 10px;
+    border: 1px solid black;
+    display : inline-block;
+}
+.bg{
+	background-color : #dee9f1;
+}
+p{
+    width: 220px;
+    height: 20px;
+    padding: 10px 20px;
+    margin : 10px;
+}
+
+.borderimage1 {
+    border: 10px solid transparent;
+    -webkit-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 round; 
+    -o-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 round; 
+    border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 round;
+}
+
+.borderimage2 {
+    border: 10px solid transparent;
+    -webkit-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 repeat; 
+    -o-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 repeat; 
+    border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 repeat;
+}
+
+.borderimage3 {
+    border: 10px solid transparent;
+    -webkit-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 stretch; 
+    -o-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 stretch; 
+    border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 30 stretch;
+}
+
+.borderimage4 {
+    border: 10px solid transparent;
+    -webkit-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 10 round; 
+    -o-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 10 round; 
+    border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 10 round;
+}
+
+.borderimage5 {
+    border: 10px solid transparent;
+    -webkit-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 50% round; 
+    -o-border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 50% round; 
+    border-image: url(https://probemedia.github.io/studyhtml5/images/b1.png) 50% round;
+}
