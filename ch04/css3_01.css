@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div{
+    width  : 200px;
+    height : 150px;
+    padding: 10px 20px;
+}
+
+div#displayArea{
+    border : 5px double #6699FF;
+    border-radius: 10px;
+}

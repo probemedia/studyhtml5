@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    
+    /*애니메이션 규칙 사용*/
+    /* moveRec : 사용할 규칙 이름, 1s : 애니메이션 지속시간*/
+    -webkit-animation: moveRec 1s; /*Safari, Opera */
+    animation: moveRec 1s;
+}
+  
+/*애니메이션 규칙 정의*/
+@-webkit-keyframes moveRec {/*Safari, Opera */
+    0%   {background:red; left:0px; top:0px;} /*시작지점에서의 형태*/
+    100% {background:blue; left:200px; top:0px;} /*마지막지점에서의 형태*/
+}
+@keyframes moveRec {/* 표준 */
+    0%   {background:red; left:0px; top:0px;} /*시작지점에서의 형태*/
+    100% {background:blue; left:200px; top:0px;} /*마지막지점에서의 형태*/
+}

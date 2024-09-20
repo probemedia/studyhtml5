@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+	display : inline-block;
+}
+
+img{
+	width : 110px;
+	height : 130px;
+	/*세피아 지정*/
+	-webkit-filter: sepia(100%); /* Chrome, Safari, Opera */
+     filter: sepia(100%); /*표준*/
+}
+
+.roundrec{
+	border-radius: 10px; /*라운드 사각 틀*/
+	/*15도 회전*/
+	-webkit-transform: rotate(15deg); /* Safari, Opera */
+    transform: rotate(15deg); /*표준*/
+}
+
+.circle{
+	border-radius: 50%; /*원형 틀*/
+}

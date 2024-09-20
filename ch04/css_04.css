@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div { /*모든 <div>태그에 적용*/
+  width : 200px; /*너비*/
+  height : 100px; /*높이*/
+  margin : 5px; /*외부 간격*/
+  padding : 5px; /*내부 간격*/
+  font-size : 16px; /*글꼴크기*/
+  background-color : #CAE2F7; /*배경색*/
+}
+
+div#display { /*<div id="display">인 태그에만 적용*/
+  background-color : grey;
+}
+
+.area { /*class="area"인 태그에 적용*/
+  font-weight: bold; /*글꼴 굵게*/
+}
+
+div:hover{ /* <div>태그에 마우스 포인터를 위치시키면 적용*/
+  background-color : yellow;
+  border : 5px double blue;	/*테두리*/
+}

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+body{ /*<body>태그의 스타일을 지정*/
+  background-image : url("../images/picture2.png"); /*배경이미지 지정*/
+}

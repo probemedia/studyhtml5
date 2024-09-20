@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+}
+
+a{ /*<a>태그에 스타일 지정*/
+	display : inline-block;
+	margin : 10px;
+	padding : 5px;
+	border : 1px solid black;
+	transition : 0.5s;
+}
+
+a:hover{ /*<a>태그에 마우스포인터가 위치하면 적용됨*/
+	box-shadow : 5px 5px 5px gray;
+}
+
+img{
+	width : 100%; /*이미지의 기본크기 - 영역 전체를 차지*/
+}
+.center{
+	text-align : center;
+}
+.responsive{ /* 반응형 이미지 구현*/
+	max-width : 25%; /*영역이 차지할 수 있는 너비가 화면의 최대 25%*/
+}
+
+/*미디어쿼리*/
+@media screen and (max-width: 768px){/*화면 너비가 768px이하*/
+  .responsive {
+      max-width: 50%; /*영역이 차지할 수 있는 너비가 화면의 최대 50%*/
+  }
+}
+
+@media screen and (max-width: 550px){/*화면 너비가 550px이하*/
+  .responsive {
+      max-width: 100%; /*영역이 차지할 수 있는 너비가 화면의 최대 100%*/
+  }
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div{
+	margin : 10px;
+	font-size : 16px;
+}
+
+@font-face { /*1. 웹 폰트 정의 : 구글폰트 사용*/
+  font-family: notoFont; /*폰트명 정의*/
+  src: url(../font/NotoSansCJKkr-Black.otf); /*사용할 폰트 파일명*/
+}
+
+.webfont{ /*2. 정의된 웹 폰트 사용*/
+  font-family: notoFont; /* 사용할 폰트명*/
+}

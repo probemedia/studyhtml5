@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div{
+	margin : 10px;
+	font-size : 16px;
+}
+
+.multicolumn {
+	/*다단*/
+    -webkit-column-count: 3; /* 크롬, 사파리, 오페라 */
+    -moz-column-count: 3; /* 파이어폭스 */
+    column-count: 3; /*표준, IE*/
+    
+    
+    /*단과 단사이의 공간*/
+    -webkit-column-gap: 40px; /* 크롬, 사파리, 오페라 */
+    -moz-column-gap: 40px; /* 파이어폭스 */
+    column-gap: 40px; /*표준, IE*/
+    
+    /*단과 단사이에 구분선 표시*/
+    -webkit-column-rule-style: dotted; /* 크롬, 사파리, 오페라 */
+    -moz-column-rule-style: dotted; /* 파이어폭스 */
+    column-rule-style: dotted; /*표준, IE*/
+}

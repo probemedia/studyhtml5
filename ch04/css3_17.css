@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+	padding : 0px;
+	display : inline-block;
+}
+
+img{
+	width : 110px;
+	height : 130px;
+}
+
+.relative{ /*이미지가 들어갈 영역에 사용- 예<div>*/
+	position: relative;
+}
+
+.topleft{/*텍스트가 있는 태그에 사용- 예<p>*/
+	position : absolute;
+	font-size : 12px;
+	font-weight :  bold;
+	top : 1px;
+	left : 5px;
+}

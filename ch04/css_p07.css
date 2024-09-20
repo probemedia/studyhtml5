@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div{
+	margin : 10px;
+}
+button{
+	background-color: lightgray;
+}
+.block{/*class="block" 속성을 사용한 태그를 block으로 배치*/
+	display: block;
+    background-color: yellow;
+}

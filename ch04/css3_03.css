@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div{
+    width  : 150px;
+    height : 200px;
+    padding: 10px 20px;
+    margin : 10px;
+    background-color: red;
+}
+
+p{
+    width  : 100px;
+    height : 30px;
+    padding: 10px 20px;
+    margin : 10px;
+}
+
+.rgba{
+	color : #000000;
+    background-color: rgba(0, 0, 255, 0.3);/*투명도 30%*/
+}
+
+.hsla{
+	color : #000000;
+    background-color: hsla(240, 70%, 70%, 0.5);/*투명도 50% */
+}
+
+.opacity{
+	color : #000000;
+    background-color: #0000FF;
+    opacity : 1.0;/*불투명*/
+}

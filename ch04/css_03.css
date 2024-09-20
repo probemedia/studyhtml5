@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body { /*body태그에 적용*/
+  background-color : #CAE2F7; /*배경색*/
+}
+
+p { /*p태그에 적용*/
+  font-size: 16px; /*글꼴크기*/
+}

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/*font-style: italic; font-weight: bold; font-size: 16px; font-family: Gill; */
+p { font: italic bold 16px Gill;}
+/*font-size: 80%; font-family: sans-serif;*/
+.s2 { font: 80% sans-serif;}/*부모태그에 대해 상대적인 크기 80%*/

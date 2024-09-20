@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{background-color:yellow;}
+
+p{
+	width: 300px;
+	height: 100px;
+	background-color:lightgray;
+	border: 2px dashed; /*테두리선*/
+	text-indent: 2em; /*'2em'정도 문단 첫줄 들여쓰기*/
+    text-align: justify; /*양쪽 맞춤*/
+    text-decoration: underline; /*문단에 밑줄 지정*/
+    word-spacing: 1em; /*단어간의 간격 1em*/
+}
+.normal { white-space: normal; } 
+.pre { white-space: pre; } 

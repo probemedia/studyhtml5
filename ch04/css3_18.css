@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+	display : inline-block;
+	background-color: white;
+	box-shadow : 5px 5px 5px gray, -5px -5px 5px lightgray; /*폴라로이드 효과*/
+}
+
+.restxt{
+	font-size : 100%;
+	text-align : center;
+}
+
+.resimg{
+	max-width : 100%; 
+}

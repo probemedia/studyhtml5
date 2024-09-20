@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div{
+	width : 300px;
+	height : 200px;
+	background-color: #ebebeb;
+}
+
+img{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+    border: 1px solid black;
+}
+
+img#img1{/*<img>태그중 id속성값이 img1인 태그*/
+    left: 20px;
+    top: 20px;
+    z-index: 1; /*z-index 1로 지정*/
+}
+
+img#img2{/*<img>태그중 id속성값이 img2인 태그*/
+    left: 40px;
+    top: 40px;
+    z-index: 2; /*z-index 2로 지정*/
+}
+
+img#img3{/*<img>태그중 id속성값이 img3인 태그*/
+    left: 60px;
+    top: 60px;
+    z-index: 3; /*z-index 3로 지정*/
+}
+
+img#img4{/*<img>태그중 id속성값이 img4인 태그*/
+    left: 80px;
+    top: 80px;
+    z-index: 4; /*z-index 4로 지정*/
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#wrapper{
+	width : 96%;
+	margin-right : auto;
+	margin-left : auto;
+	background-color: #ebebeb;
+}
+
+header{
+	width : 98%;
+	background-color: cyan;
+	clear : both;
+}
+
+section{
+	width : 72%;
+	margin-right : 4%;
+	background-color: blue;
+	float : left;
+	
+}
+
+aside{
+	min-width : 100px;
+	margin-right : 1%;
+	margin-left : 1%;
+	background-color: yellow;
+	float : left;
+}
+
+footer{
+	width : 98%;
+	background-color: cyan;
+	clear : both;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+    border: 1px solid black;
+    margin : 10px;
+    float : left;
+}

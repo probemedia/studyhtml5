@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+figure {
+	display : inline-block;
+}
+
+img{
+	width : 100px;
+	height : 120px;
+}
+
+figcaption{
+	text-align : center;
+}
+
+.blur{
+	-webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+     filter: blur(3px); /*표준*/
+}
+
+.brightness{
+	-webkit-filter: brightness(150%); /* Chrome, Safari, Opera */
+     filter: brightness(150%); /*표준*/
+}
+
+.drop-shadow{
+	-webkit-filter: drop-shadow(5px 5px 5px gray) ; /* Chrome, Safari, Opera */
+     filter: drop-shadow(5px 5px 5px gray); /*표준*/
+}
+
+.grayscale{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+     filter: grayscale(100%); /*표준*/
+}
+
+.contrast{
+	-webkit-filter: contrast(200%); /* Chrome, Safari, Opera */
+     filter: contrast(200%); /*표준*/
+}
+
+.hue-rotate{
+	-webkit-filter: hue-rotate(180deg); /* Chrome, Safari, Opera */
+     filter: hue-rotate(180deg); /*표준*/
+}
+
+.invert{
+	-webkit-filter: invert(100%); /* Chrome, Safari, Opera */
+     filter: invert(100%); /*표준*/
+}
+
+.opacity{
+	-webkit-filter: opacity(50%); /* Chrome, Safari, Opera */
+     filter: opacity(50%); /*표준*/
+}
+
+.saturate{
+	-webkit-filter: saturate(300%); /* Chrome, Safari, Opera */
+     filter: saturate(300%); /*표준*/
+}
+
+.sepia{
+	-webkit-filter: sepia(100%); /* Chrome, Safari, Opera */
+     filter: sepia(100%); /*표준*/
+}

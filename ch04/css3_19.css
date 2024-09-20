@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#img1{/*<img id="img1">에 스타일 지정*/
+	width : 140px;
+	height : 190px;
+	cursor: pointer;/*마우스 포인터가 손가락 모양*/
+	transition: 0.2s;
+}
+
+#img1:hover{/*<img id="img1">에 마우스 포인터 위치시 스타일 지정*/
+	box-shadow : 5px 5px 5px gray;
+}
+
+.modal{ /*이미지 대화상자 <div class="modal">에 스타일 지정*/
+	display:none; /*이미지 대화상자 화면표시 안함*/
+    position: fixed; /*이미지 대화상자 위치 고정*/
+    z-index: 1; /*이미지 대화상자 화면 전면부에 표시*/
+    width: 100%; /*이미지 대화상자 화면 전체크기로 표시*/
+    height: 100%;
+    padding-top: 100px;
+    left: 0; /*이미지 대화상자의 오른쪽 시작위치*/
+    top: 0; /*이미지 대화상자의 위쪽 시작위치*/
+    background-color: rgba(0,0,0,0.9); /*이미지 대화상자 배경색*/
+}
+
+.modalcontent{/*대화상자에 표시되는 이미지 <img id="modalimg" class="modalcontent">*/
+	display: block; /*block으로 표시*/
+	margin: auto; /*이미지가 가운데 정렬됨*/
+    width: 70%;
+    max-width: 480px;
+}
+
+.caption {/*대화상자에 표시되는 이미지 설명*/
+    display: block;
+    margin: auto; /*<div>가 가운데 정렬됨*/
+    width: 70%;
+    max-width: 480px;
+    text-align: center; /*설명글이 가운데 정렬됨*/
+    color: lightgray;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.closebutton{/*이미지 대화상자의 닫기버튼*/
+	position: absolute; /*위치는 항상 같은 위치*/
+    top: 5px;
+    left: 35px;
+    color: #f0f0f0;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*대화상자의 닫기버튼에 마우스 포인터가 위치하거나 포커스가 들어오면 지정되는 스타일*/
+.closebutton:hover, .closebutton:focus {
+    color: gray;
+    cursor: pointer;
+}
+
+/*대화상자의 이미지와 설명글이 화면에 표시될때 : 애니메이션효과 추가*/
+/*추가된 애니메이션 : 이미지가 앞으로 튀어나오듯이 표시*/
+.modalcontent, .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.5s;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes zoom { /*IE, 크롬, 사파리*/
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {/*표준*/
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div{ /*div엘리먼트의 원래형태*/
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin : 30px;
+    background: yellow;
+    display : inline-block;
+    /*변환 – width, height, background, transform 및 지속시간 - 1s*/
+    -webkit-transition: width 1s, height 1s, background 1s, -webkit-transform 1s; /* Safari */
+    transition: width 1s, height 1s, background 1s, transform 1s; /* 표준 */
+}
+
+div:hover {/*div엘리먼트에 마우스포인터를 위치하면 변환될 형태*/
+    width: 150px;
+    height: 150px;
+    background: green;
+    -webkit-transform: rotate(360deg); /* Safari, Opera */
+    transform: rotate(360deg);
+ }

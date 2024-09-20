@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+}
+
+.restxt{
+	font-size : 100%; /*100% == 16px == 1em*/
+}
+
+.resimg{
+	max-width : 100%; /*반응형 이미지 구현*/
+}

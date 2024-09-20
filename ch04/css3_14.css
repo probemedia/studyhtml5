@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div {
+	margin : 10px;
+}
+
+a{ /*<a>태그에 스타일 지정*/
+	display : inline-block;
+	padding : 5px;
+	border : 1px solid black;
+	transition : 0.5s;
+}
+
+.thumnail{
+	width : 100px;
+	height : 120px;
+}
+
+a:hover{ /*<a>태그에 마우스포인터가 위치하면 적용됨*/
+	box-shadow : 5px 5px 5px gray;
+}

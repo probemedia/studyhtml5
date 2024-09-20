@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div{
+	width : 400px;
+	height : 200px;
+	background-color: #ebebeb;
+}
+
+img#im1{
+	width : 120px;
+    height : 80px;
+    position: static;/*태그를 일반적흐름(순서대로) 배치*/
+}
