@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var str1 = "yeontan";
+    var str2 = "yeontan";
+    var obj1 = {name: "yeontan"};
+    var obj2 = {name: "yeontan"};
+    
+    document.write("객체 예제 : 객체 내용 비교<br>");
+    if(str1 === str2)  // 내용이 같은 문자열
+    	document.write("str1, str2 문자열의 내용이 같다<br>");
+    else
+    	document.write("str1, str2 문자열의 내용이 다르다<br>");
+    
+    if(JSON.stringify(obj1) === JSON.stringify(obj2))  // 내용이 같은 객체
+    	document.write("obj1, obj2객체는 객체의 내용이 같다<br>");
+    else
+    	document.write("obj1, obj2객체는 객체의 내용이 다르다<br>");
+  </script>
+</body>
+</html>

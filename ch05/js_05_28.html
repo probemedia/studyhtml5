@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var PlayerCharacter = function(name){  // 생성자함수 선언
+	    this.name = name;  // 프로퍼티 선언
+	    this.getName = function(){return name;}  // 메소드 선언
+	};
+	
+	var pc = new PlayerCharacter("basic");
+	
+	document.write("객체 예제 : 생성자 함수에 메소드 작성<br>");
+	document.write(pc.getName(),"<br>");
+  </script>
+</body>
+</html>

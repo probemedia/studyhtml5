@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var object1 = {
+		  number1: 1230,
+		  string1: "yeontan",
+		  boolean1: true,
+		  array1: [52, 273, 103, 32],
+		  method1: function(){return 1;}
+	};
+    
+    document.write("객체 예제 : 객체 프로퍼티 반복 접근<br>");
+    for(var x1 in object1){
+	  document.write(x1, " : ", object1[x1], "<br>");
+	}
+	document.write("object1.method1()메소드 실행 : " + object1.method1());
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var add1 = (function(){
+	  var counter = 0;
+	  return function(){counter += 1; return counter;}
+	})();
+
+    document.write("함수 예제 : 클로저를 사용한 카운터변수를 딜레마 처리<br>");
+    document.write(add1(), "<br>");
+	document.write(add1(), "<br>");
+	document.write(add1(), "<br>");
+	document.write(counter);
+  </script>
+</body>
+</html>

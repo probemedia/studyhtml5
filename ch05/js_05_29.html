@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    function Student(name, korean, math) {  // 생성자 함수 선언
+	  this.name = name;
+	  this.korean = korean;
+	  this.math = math;
+	}
+    
+	Student.prototype.getSum = function(){  // 생성자 함수밖에서 메소드 추가
+	  return this.korean + this.math; 
+	};
+
+	var s1 = new Student("김연탄", 100, 100)  // s1객체생성
+	
+	document.write("객체 예제 : 프로토타입에 메소드 작성<br>");
+	document.write(s1.name, " : ", s1.getSum());
+  </script>
+</body>
+</html>

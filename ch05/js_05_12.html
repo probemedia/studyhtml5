@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var objName = [{name: "김태형", subName : "taetae"}, 
+    	           {name: "김연탄", subName : "tan"}];
+    
+    document.write("제어문 예제 : for-of문<br>");
+    for(let obj1 of objName) {
+      for(var v1 in obj1){
+        document.write(v1 + " : " + obj1[v1] + "<br>");
+      }
+    }
+  </script>
+</body>
+</html>

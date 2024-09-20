@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var obj1 = {name: "yeontan"};
+    var obj2 = {name: "yeontan"};
+    var obj3 = obj1;
+    
+    document.write("객체 예제 : 객체 레퍼런스 비교<br>");
+    if(obj1 == obj3)  // 같은 객체
+    	document.write("obj1과 obj3은 같은 객체<br>");
+    else
+    	document.write("obj1과 obj3은 다른 객체<br>");
+    
+    if(obj1 == obj2)  // 다른 객체
+    	document.write("obj1과 obj2는 같은 객체<br>");
+    else
+    	document.write("obj1과 obj2는 다른 객체<br>");
+  </script>
+</body>
+</html>

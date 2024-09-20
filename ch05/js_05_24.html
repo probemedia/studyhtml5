@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var objName = {name: "김왕쌍", 
+    		       subName: "kingdora"};
+    
+    document.write("객체 예제 : 객체 프로퍼티 제거<br>");
+    document.write("objName객체 프로퍼티 출력<br>");
+    for(var v1 in objName) { 
+       document.write(v1 + " : " + objName[v1] + "<br>");
+    }
+
+    delete objName.subName;  // objName객체의 subName프로퍼티 제거
+    
+    document.write("<br>subName프로퍼티 제거 후 objName객체 프로퍼티 출력<br>");
+    for(var v1 in objName) { 
+    	document.write(v1 + " : " + objName[v1] + "<br>");
+    }
+  </script>
+</body>
+</html>

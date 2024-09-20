@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JavaScript test</title>
+</head>
+<body>
+  <script>
+    var objStudent = {name: "kingdora", 
+    		          major: "computer science",
+    		          to_do: function(m){return m + " studing";}};
+    
+    document.write("객체 예제 : 객체생성, 프로퍼티 접근<br>");
+    document.write(objStudent.name + "<br>");
+    document.write(objStudent.to_do(objStudent.major) + "<br>");
+    
+    objStudent.major = "electronics engineering"; // 프로퍼티값 변경
+    objStudent.age = 22;  // 새 프로퍼티 생성
+    document.write(objStudent.major + "<br>");
+    document.write(objStudent.age + "<br>");
+  </script>
+</body>
+</html>
